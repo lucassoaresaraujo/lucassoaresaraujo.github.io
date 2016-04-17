@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+header{
+  color: #fff;
+  overflow: hidden;
+  background: url("../img/fundo.jpg") no-repeat fixed center;
+}
+
+header iframe{
+  margin: 0 auto 20px auto;
+  width:690px;
+  height:388px;
+}
+
+header h1, section h2{
+  font-weight: 400;
+}
+
+
+#informacoes{
+  background-color: #100F10;
+  color: #fff;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+
+#informacoes h2{
+  margin: auto;
+  padding: 40px;
+  font-weight: bold;
+  color: #AAA;
+}
+
+#informacoes-gerais{
+  margin: 0 100px;
+  float: left;
+  text-align: left;
+}
+
+#informacoes-gerais dt{
+  font-weight: bold;
+}
+
+#informacoes-gerais dd{
+  margin-left: 40px;
+}
+
+#informacoes-gerais dd a{
+  color: #fff;
+  text-decoration: none;
+}
+
+#informacoes-gerais dd a:hover{
+  text-decoration: underline;
+}
+
+#sinopse{
+  margin: 0 100px;
+}
+
+#sinopse p{
+  text-align: justify;
+  margin: auto;
+}
+
+#galeria h2{
+  margin: auto;
+  padding: 40px;
+  font-weight: bold;
+  color: #444;
+}
+
+ #galeria figure{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+#galeria img{
+  display: inline-block;
+  height: 250px;
+  border-radius: 25px;
+}
+
+footer{
+  padding: 25px 0;
+}
